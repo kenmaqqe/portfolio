@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
+.container{
+    max-width: 1048px;
+    margin: 0 auto;
+    padding: 0px 12px 0px 12px;
+}
+@media screen and (max-width: 1048px) {
+    .container{
+        max-width: 798px;
+    }
+}
+@media screen and (max-width: 797px){
+    .container{
+        max-width: 90%
+    }
+}
+body{
+    background-color: #282C33;
+}
+*{
+    font-family: 'Fira Code';
+    font-weight: 400;
+}
+h2{
+    color: white;
+}

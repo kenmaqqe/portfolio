@@ -1,0 +1,104 @@
+.logoImg{
+    width: 25px;
+    fill: white;
+    margin-right: 2px;
+}
+.logo{
+    display: flex;
+}
+.logo h3{
+    color: white;
+}
+.ulList{
+    list-style: none;
+    display: flex;
+}
+.ulList li{
+    margin-right: 32px;
+}
+.navMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.hash{
+    color: #C778DD;
+}
+.link:hover {
+    color: #C778DD;
+}
+.logo:hover svg,
+.logo:hover h3{
+    fill: #C778DD;
+    color: #C778DD;
+}
+.open{
+    display: none;
+    border: none;
+    background: none;
+}
+.open .image{
+    width: 25px;
+    height: 25px;
+}
+.image{
+    color: white;
+}
+.image:hover,
+.image:active,
+.image:focus{
+    color: #C778DD;
+}
+@media (max-width: 801px) {
+    .open{
+        display: flex;
+        background-color: none;
+    }
+    .nav{
+        display: none;
+    }
+}
+@media (min-width: 801px) {
+    .navPhone{
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.ulListPhone {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    list-style: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    height: 100%;
+    background-color: #282C33;
+    width: 100%;
+}
+.ulListPhone li{
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+.social{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #ABB2BF;
+}
+.socialImg:hover,
+.socialImg:active,
+.socialImg:focus{
+    color: #C778DD;
+}
+.socialImg{
+    margin-right: 10px;
+}
