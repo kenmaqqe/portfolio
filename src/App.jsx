@@ -5,11 +5,13 @@ import {Home} from './pages/Home'
 import {Projects} from './pages/Projects'
 import {AboutMe} from './pages/AboutMe'
 import {Contacts} from './pages/Contacts'
+import {SocialMedia} from './components/socialMedia'
 
 function App() {
 
   return (
     <>
+      <SocialMedia/>
       <div className="container">
       <Nav/>
       <Routes>
