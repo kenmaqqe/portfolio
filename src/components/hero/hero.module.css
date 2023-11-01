@@ -7,7 +7,7 @@
     color: #C778DD;
 }
 .text {
-    width: 50%;
+    max-width: 50%;
     margin-top: 140px;
 }
 .hero{
@@ -63,4 +63,38 @@
 .button:hover,
 .button:focus{
     background: rgba(199, 120, 221, 0.20);
+}
+@media (max-width: 1120px){
+    .photo img{
+        width: 350px;
+        height: 300px;
+    }
+}
+@media (max-width: 840px){
+    .button{
+        display: none;
+    }
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        align-content: space-evenly;
+    }
+    .text {
+        margin-top: 0;
+        max-width: 100%;
+    }
+    .text p,
+    .alt p{
+    color: #ABB2BF;
+    font-weight: 400;
+    font-size: 16px;
+    }
+    .photo img{
+        max-width: 300px;
+        max-height: 250px;
+    }
+    .text h3, .text p{
+        max-width: 100%;
+    }
+
 }
