@@ -1,0 +1,23 @@
+.social {
+    margin-top: -10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    margin-top: 15px;
+}
+.img:hover,
+.img:active,
+.img:focus{
+    color: #C778DD;
+}
+.img{
+    color: white;
+}
+@media (max-width: 850px){
+    .social{
+        display: none;
+    }
+}
