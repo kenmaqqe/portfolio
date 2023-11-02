@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './hero.module.css'
 import  heroImg  from './heroImg.jpg'
+import Modal from '../Modal'
+
 
 const Hero = () => {
 
@@ -17,6 +19,7 @@ const Hero = () => {
                 <div className={styles.purpleSquare}></div><p>Currently working on Portfolio</p>
             </div>
         </div>
+        <Modal />
     </div>
   )
 }

@@ -1,0 +1,47 @@
+.Modal{
+    width: 580px;
+    height: 350px;
+    position: absolute;
+    z-index: 10;
+    background-color: aliceblue;
+    padding: 18px;
+}
+.button{
+    border: 1px solid var(--primary, #C778DD);
+    background: none;
+    display: inline-flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+}
+.button:hover,
+.button:focus{
+    background: rgba(199, 120, 221, 0.20);
+}
+.Name{
+    margin-right: 16px;
+    width: 240px;
+    height: 40px;
+}
+.Email{
+    width: 240px;
+    height: 40px;
+}
+.first{
+    display: flex;
+    margin-bottom: 16px;
+}
+.field{
+    margin: 32px;
+}
+.Title{
+    width: 505px;
+    height: 40px;
+}
+.second{
+    margin-bottom: 16px;
+}
+.Text{
+    width: 505px;
+}
