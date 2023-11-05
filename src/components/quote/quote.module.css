@@ -1,0 +1,33 @@
+.quoteBox{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.quoteBox .author{
+    align-content: end;
+    align-items: center;
+}
+.quote{
+    border: 1px solid var(--gray, #ABB2BF);
+}
+.quote h4{
+    margin: 32px;
+}
+.author{
+    width: 95%;
+    text-align: end;
+}
+.purple{
+    color: #C778DD;
+}
+.purpleAuthor{
+
+    border: 1px solid var(--gray, #ABB2BF);
+    width: 250px;
+    padding: 10px;
+    z-index: 1;
+    background-color: #282C33;
+}
