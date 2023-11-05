@@ -33,7 +33,7 @@ export const Nav = () => {
         {isMobile ? <div className={styles.navPhone}> 
           {isOpen ? <button className={styles.open} onClick={handleMenu}><AiOutlineClose className={styles.image}/></button> : <button className={styles.open} onClick={handleMenu}><RxHamburgerMenu className={styles.image}/></button> }
           <div className={styles.box}>
-            <ul className={styles.ulListPhone} style={show}> 
+            <ul className={styles.ulListPhone} style={show} onClick={handleMenu}> 
                 <li><Link className={styles.link} onClick={handleMenu} to="/"><span className={styles.hash}>#</span>Home</Link></li>
                 <li><Link className={styles.link} onClick={handleMenu} to="/projects"><span className={styles.hash}>#</span>Projects</Link></li>
                 <li><Link className={styles.link} onClick={handleMenu} to="/aboutme"><span className={styles.hash}>#</span>About-me</Link></li>

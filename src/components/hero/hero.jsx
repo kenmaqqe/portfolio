@@ -41,7 +41,7 @@ const Hero = () => {
   
     <div className={styles.hero}>
         <div className={styles.text}>
-            <h3>Kenmaqqe is a <span className={styles.purple}>front-end developer</span></h3>
+            <h3>Kenmaqqe is a <span className={styles.purple}>GOAT <br/>front-end developer</span></h3>
             <p>He crafts responsive websites where technologies meet creativity</p>
             <button className={styles.button} onClick={openModal}>Contact me!!</button>
         </div>
