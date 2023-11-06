@@ -3,6 +3,7 @@ import {Hero} from '../components/hero/hero'
 import { Quote } from '../components/quote/quote'
 import { SectionProject } from '../components/sectionProjects/sectionProject'
 import { SectionSkill } from '../components/sectionSkill/SectionSkill'
+import { AboutMeSection } from '../components/aboutMe/AboutMeSection'
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
       <Quote/>
       <SectionProject />
       <SectionSkill/>
+      <AboutMeSection/>
     </div>
   )
 }
