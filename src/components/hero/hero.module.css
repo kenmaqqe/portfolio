@@ -139,13 +139,12 @@
     background: none;
     display: flex;
     padding: 8px 16px;
-    align-items: end;
     gap: 10px;
     color: white;
-    margin-top: 10px;
+    margin-top: 16px;
     width: 80px;
     position: relative;
-    left: 480px;
+    left: 474px;
 }
 .buttonClose:hover,
 .buttonClose:focus{

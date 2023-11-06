@@ -1,0 +1,58 @@
+.projectImg{
+    height: 200px;
+    width: 330px;
+    margin-bottom: 0;
+}
+.img{
+    border: 1px solid var(--gray, #ABB2BF);
+    height: 200px;
+    width: 330px;
+}
+.used{
+    display: flex;
+    height: auto;
+    width: 330px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+.about{
+    height: auto;
+    width: 330px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+.usedText{
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 8px;
+}
+.AboutBox{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.AboutBox h3{
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.AboutBox p{
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10;
+}
+.Button{
+    padding-top: 10px;
+    border: 1px solid var(--primary, #C778DD);
+    padding: 8px 16px;
+    margin-bottom: 10px;
+}
+.Button:hover,
+.Button:focus{
+    background: rgba(199, 120, 221, 0.20);
+}
+.Box{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
