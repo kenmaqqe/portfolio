@@ -1,0 +1,30 @@
+.purple{
+    color: #C778DD;
+}
+.firstElement{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+.firstElement h3{
+    margin-right: 10px;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.content{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
