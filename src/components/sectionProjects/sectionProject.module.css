@@ -4,10 +4,14 @@
 .purple{
     color: #C778DD;
 }
-.line h3{
+.line{
+    display: flex;
+    align-items: center;
     font-size: 32px;
     font-weight: 500;
-    color: white;
+    color: #fff;
+}
+.line h3{
     margin-right: 10px;
 }
 .line{

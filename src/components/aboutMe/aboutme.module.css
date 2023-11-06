@@ -1,0 +1,59 @@
+.purple{
+    color: #C778DD;
+}
+.SectionName{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+.SectionName h3{
+    margin-right: 10px;
+}
+.Section{
+    display: flex;
+}
+.About{
+    width: 50%;
+}
+.Photo{
+    width: 50%;
+}
+.About p{
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.Button{
+    padding-top: 10px;
+    border: 1px solid var(--primary, #C778DD);
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.Button:hover,
+.Button:focus{
+    background: rgba(199, 120, 221, 0.20);
+}
+.Box{
+    margin-top: 100px;
+}
+.Photo img {
+    height: 300px;
+    filter: blur(1px);
+}
+.Photo {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 890px){
+    .Section{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Photo{
+        margin-top: 20px;
+    }
+}

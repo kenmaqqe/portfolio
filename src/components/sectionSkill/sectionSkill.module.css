@@ -23,8 +23,25 @@
     width: 50%;
 }
 .right{
+    width: 50%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+}
+@media screen and (max-width: 1120px) {
+    .left{
+        position: absolute;
+        z-index: -5;
+    }
+    .right{
+        z-index: 5;
+    }
+}
+@media screen and (max-width: 890px){
+    .right{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
 }
