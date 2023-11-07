@@ -24,3 +24,12 @@ body{
 h2{
     color: white;
 }
+hr{
+    margin-top: 150px;
+    width: 100%;
+}
+@media (max-width: 600px){
+    hr{
+        display: none;
+    }
+}

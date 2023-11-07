@@ -1,0 +1,73 @@
+.purple{
+    color: #C778DD;
+}
+.firstElement{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+.firstElement h3{
+    margin-right: 10px;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.Text {
+    width: 50%;
+}
+.Text p{
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.Content{
+    display: flex;
+}
+.MessageMe{
+    margin-left: 25%;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    border: #ABB2BF 1px solid;
+    padding: 10px;
+}
+.Diskord{
+    display: flex;
+    align-items: center;
+}
+.Email {
+    display: flex;
+    align-items: center;
+}
+.MessageMe h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.MessageMe p{
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+@media (max-width: 890px){
+    .Content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Text{
+        width: 100%;
+    }
+    .MessageMe{
+        margin-left: 0;
+    }
+    .firstElement h3{
+        font-size: 28px;
+    }
+}
