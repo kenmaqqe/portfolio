@@ -1,0 +1,39 @@
+.Footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.logoImg{
+    width: 25px;
+    fill: white;
+    margin-right: 2px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h3{
+    color: white;
+    margin-right: 10px;
+}
+.logo p{
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.img:hover,
+.img:active,
+.img:focus{
+    color: #C778DD;
+}
+.Left h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+@media (max-width: 600px){
+    .Footer{
+        display: none;
+    }
+}

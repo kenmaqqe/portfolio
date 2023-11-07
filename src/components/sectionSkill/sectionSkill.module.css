@@ -44,4 +44,7 @@
         flex-wrap: wrap;
         margin: 0 auto;
     }
+    .firstElement h3{
+        font-size: 28px;
+    }
 }

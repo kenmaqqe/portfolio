@@ -3,8 +3,14 @@ import styles from './sectionProject.module.css';
 import { ProjectTemplate } from '../project';
 import Project1 from "../sectionProjects/project1.jpg"
 import Project2 from "../sectionProjects/project2.jpg"
+import { Link } from 'react-router-dom';
 
 const SectionProject = () => {
+    const ScrollToTop = () =>{
+        window.scrollTo({
+            top: 0
+          });
+    }
   return (
     <div className={styles.section}>
         <div className={styles.line}>
@@ -15,7 +21,9 @@ const SectionProject = () => {
                 </svg>
             </div>
             <div>
+                <Link onClick={ScrollToTop} to="/projects">
                 <h4>View all ~~></h4>
+                </Link>
             </div>
         </div>
         <div className={styles.Project}>

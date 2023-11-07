@@ -56,4 +56,13 @@
     .Photo{
         margin-top: 20px;
     }
+    .About{
+        width: 100%;
+    }
+    .SectionName svg{
+        display: none;
+    }
+    .SectionName h3{
+        font-size: 28px;
+    }
 }
